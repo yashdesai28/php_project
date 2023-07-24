@@ -1,0 +1,158 @@
+body{
+	margin:0;
+	
+	font-family: sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table td,.table th{
+  padding:12px 15px;
+  border:1px solid #ddd;
+  text-align: center;
+  font-size:16px;
+}
+
+.tableorder{
+    margin-top: 3rem;
+}
+
+.tablehed{
+	margin-bottom: 2rem;
+}
+
+.table th{
+	background-color: #e03131;
+	color:#ffffff;
+}
+
+td img{
+	width: 6rem;
+	height: 4rem;
+}
+
+/*responsive*/
+
+@media(max-width: 500px){
+	.table thead{
+		display: none;
+	}
+
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 100%;
+	}
+	.table tr{
+		margin-bottom:15px;
+	}
+	.table td{
+		text-align: right;
+		padding-left: 50%;
+		text-align: right;
+		position: relative;
+	}
+	.table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+
+	
+	.tablehed{
+		grid-template-columns: 1fr;
+
+	}
+
+	.rightp{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+
+	}
+
+
+	.rightp input{
+		width: 100%;
+
+	}
+
+	.editbtn{
+		width: 100%;
+	}
+	
+}
+
+
+
+
+
+.tablehed{
+	margin-bottom: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	height: 6rem;
+}
+
+.leftp{
+	display: flex;
+	margin-left: 1rem;
+	align-items: center;
+}
+
+.rightp{
+	display: flex;
+	justify-content:flex-end;
+
+	align-items: center;
+	flex-direction: row;
+	
+	
+}
+
+.rightmainbtn{
+	display: flex;
+	flex-direction: column;
+	margin-right: 1rem;
+}
+
+.editbtn{
+    height: 2.6rem;
+    width: 13rem;
+    background-color: #e03131;
+    color: white;
+    font-size: 14px;
+	cursor: pointer;
+}
+
+.rightp input{
+	height: 2.5rem;
+	margin-right: 1rem;
+	width: 13rem;
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin-top: 1rem;
+
+}
+
+
+
+
+
+

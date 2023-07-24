@@ -1,0 +1,162 @@
+/* sec 1 */
+
+.primary-head{
+    font-size: 7.6rem;
+    text-align: center;
+}
+
+.bg-product{
+    background-color: #e03131;
+    color:#fff;
+    height: 33.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8.6rem;
+
+}
+
+
+/* sec 2 */
+
+.under-line{
+   background-color: #e03131;
+    width: 8.4rem;
+    height: 0.8rem;
+    border-radius: 12px;
+ 
+}
+
+.pro-flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+.margin-up{
+    margin-bottom: 2.4rem;
+    margin-top: 7.4rem;
+}
+
+/* sec 3 */
+
+
+.btn-product{
+    border: none;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+ 
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+ 
+}
+
+.main-product img{
+    width: 100%;
+   
+}
+
+.main-product{
+   
+    box-shadow: 2px 2px 40px rgb(0 0 0 / 19%);
+    padding: 2.4rem;
+   
+}
+
+.third-head{
+    font-size: 2.4rem;
+}
+
+.product-price{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+
+}
+.product-feature{
+    display: flex;
+    padding: 1rem;
+    gap: 2.4rem;
+    justify-content: center;
+}
+
+.icon{
+    height: 1.8rem;
+    width: 1.8rem;
+    transition: all 0.8ms;
+}
+
+
+
+.icon:active{
+    color:  #e03131;
+}
+
+.margin-top-remove{
+    margin-top: 0;
+}
+
+.btn-product{
+    cursor: pointer;
+}
+
+
+/* media */
+
+
+@media(max-width:56em){
+
+    
+    .footer-container{
+           
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+    .grid-3{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    
+    .grid-4{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    html{
+        font-size: 50%;
+    }
+    
+    }
+
+
+
+    @media(max-width:37.6em)
+    {
+        .grid-3{
+            grid-template-columns: 1fr;
+        }
+        
+    .grid-4{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+        .footer-container{
+           
+            grid-template-columns: 1fr;
+        }
+
+        html{
+            font-size: 44%;
+        }
+    
+    }
+    

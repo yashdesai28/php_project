@@ -1,0 +1,112 @@
+.prfilemain{
+    margin-top: 5rem;
+    display: grid;
+    height: 30rem;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.right{
+  
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    margin-left: 1rem;
+   
+}
+
+.inputleft{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.inputright{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.profileicon{
+    width: 5rem;
+    height: 4rem;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+    color: white;
+}
+
+.editprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.lefttop{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+   
+}
+
+ .f1{
+
+    height: 2.6rem;
+  
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+input[type=file]{
+    margin-top: 0.6rem;
+    
+}
+
+.f1{
+
+    height: 2.6rem;
+  
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.editprofile{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+.editbtn{
+    height: 2.6rem;
+    width: 10rem;
+    background-color: #e03131;
+    color: white;
+    font-size: 14px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:768px)
+{
+    .prfilemain{
+        grid-template-columns: 1fr;
+    }
+}

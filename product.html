@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="mainlogo.png">
+    <title>dashbord</title>
+
+    <!--matiriyal icon-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!--css style-->
+    <link rel="stylesheet" href="dashbord.css">
+    <link rel="stylesheet" href="dashproduct.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="mainlogo.png" alt="">
+                    <h2>FoodMart</h2>
+                </div>
+
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-sharp">close</span>
+
+                </div>
+            </div>
+            <div class="sidebar">
+
+                <a href="index.html">
+                    <span class="material-symbols-sharp">dashboard</span>
+                    <h3>dashboard</h3>
+                </a>
+
+                <a href="product.html" class="active">
+                    <span class="material-symbols-sharp">inventory_2</span>
+                    <h3>product</h3>
+                </a>
+
+                <a href="manage_user.html">
+                    <span class="material-symbols-sharp">manage_accounts</span>
+                    <h3>manage user</h3>
+                </a>
+
+
+                <a href="orders.html">
+                    <span class="material-symbols-sharp">receipt_long</span>
+                    <h3>orders</h3>
+                </a>
+
+
+                <a href="add_product.html">
+                    <span class="material-symbols-sharp">add</span>
+                    <h3>add product</h3>
+                </a>
+
+
+                <a href="stock.html">
+                    <span class="material-symbols-sharp">inventory</span>
+                    <h3>stock</h3>
+                </a>
+
+
+                <a href="profile.html">
+                    <span class="material-symbols-sharp">person</span>
+                    <h3>profile</h3>
+                </a>
+
+
+
+
+                <a href="#">
+                    <span class="material-symbols-sharp">Logout</span>
+                    <h3>Logout</h3>
+                </a>
+
+
+
+
+
+            </div>
+        </aside>
+
+
+
+
+
+
+    </div>
+
+
+    <div class="container">
+
+        <div class="khali">
+
+        </div>
+
+        <div class="bharelo">
+
+            <!--nevbar section-->
+            <nav class="navbar">
+                <div class="navbar__container">
+                    <a href="#home" id="navbar__logo">orders</a>
+                    <div class="navbar__toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">
+
+                            <input class="sarch" type="text" placeholder="type here">
+                        </li>
+
+                        <li class="navbar__item">
+
+                            <span class="material-symbols-sharp">account_circle</span>
+                            <p>Admin</p>
+
+                        </li>
+
+                        <li class="navbar__item">
+                            <span class="material-symbols-sharp">notifications</span>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="tableproduct">
+
+
+                <div class="tablehed">
+
+                    <div class="leftp">
+                        <h2>total 10 product</h2>
+                    </div>
+
+                    <div class="rightp">
+
+                        <div class="rightmainbtn">
+                            <button class="editbtn">search product</button>
+
+                            <input type="text" placeholder="product name">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>product name</th>
+                            <th>price</th>
+                            <th>image</th>
+                            <th>Date</th>
+                            <th>Total stock</th>
+                            <th>status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="product name">Kiwi</td>
+                            <td data-label="price">100</td>
+                            <td data-label="image"><img src="../friuts/product-fruit/kiwi.jpg" alt=""></td>
+                            <td data-label="Date">28-7-2022</td>
+                            <td data-label="Totalstock">60kg</td>
+                            <td data-label="status">active</td>
+                            <td data-label="Action">
+                                <button class="btn-pro-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td data-label="product name">Grape</td>
+                            <td data-label="price">70</td>
+                            <td data-label="image"><img src="../friuts/product-fruit/grps.jpg" alt=""></td>
+                            <td data-label="Date">28-7-2022</td>
+                            <td data-label="Totalstock">100kg</td>
+                            <td data-label="status">active</td>
+                            <td data-label="Action"><button class="btn-pro-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td data-label="product name">Potato</td>
+                            <td data-label="price">30</td>
+                            <td data-label="image"><img src="../friuts/product-fruit/poteto.jpg" alt=""></td>
+                            <td data-label="Date">28-7-2022</td>
+                            <td data-label="Totalstock">200kg</td>
+                            <td data-label="status">active</td>
+                            <td data-label="Action"><button class="btn-pro-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td data-label="product name">Cauliflower</td>
+                            <td data-label="price">60</td>
+                            <td data-label="image"><img src="../friuts/product-fruit/fulavar.jpg" alt=""></td>
+                            <td data-label="Date">28-72022</td>
+                            <td data-label="Totalstock">60kg</td>
+                            <td data-label="status">active</td>
+                            <td data-label="Action"><button class="btn-pro-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td data-label="product name">Mango</td>
+                            <td data-label="price">130</td>
+                            <td data-label="image"><img
+                                    src="../product-fruit/ripe-mango-with-green-leaf-isolated-white_252965-183.webp"
+                                    alt=""></td>
+                            <td data-label="Date">28-72022</td>
+                            <td data-label="Totalstock">500kg</td>
+                            <td data-label="status">active</td>
+                            <td data-label="Action"><button class="btn-pro-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td data-label="product name">Cherry</td>
+                            <td data-label="price">50</td>
+                            <td data-label="image"><img src="../product-fruit/cheri.jpg" alt=""></td>
+                            <td data-label="Date">28-72022</td>
+                            <td data-label="Totalstock">80kg</td>
+                            <td data-label="status">active</td>
+                            <td data-label="Action"><button class="btn-pro-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td data-label="product name">Lady Finger</td>
+                            <td data-label="price">40</td>
+                            <td data-label="image"><img src="../product-fruit/bhindo.webp" alt=""></td>
+                            <td data-label="Date">28-72022</td>
+                            <td data-label="Totalstock">100kg</td>
+                            <td data-label="status">active</td>
+                            <td data-label="Action"><button class="btn-pro-svg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    
+    <script>
+
+        const menu = document.querySelector('#mobile-menu');
+        const menuLinks = document.querySelector('.navbar__menu');
+        const navLogo = document.querySelector('#navbar__logo');
+
+        //display mobile menu
+        const mobileMenu = () => {
+
+            menu.classList.toggle('is-active');
+            menuLinks.classList.toggle('active');
+        };
+
+        menu.addEventListener('click', mobileMenu);
+
+        //  Close mobile Menu when clicking on a menu item
+        const hideMobileMenu = () => {
+            const menuBars = document.querySelector('.is-active');
+            if (window.innerWidth <= 768 && menuBars) {
+                menu.classList.toggle('is-active');
+                menuLinks.classList.remove('active');
+            }
+        };
+
+        menuLinks.addEventListener('click', hideMobileMenu);
+        navLogo.addEventListener('click', hideMobileMenu);
+
+
+
+    </script>
+
+    
+
+</body>
+
+</html>

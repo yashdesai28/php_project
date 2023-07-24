@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.placeorder{
+    max-width: 120rem;
+    margin: 4.8rem auto;
+}
+
+.order-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2.4rem;
+    padding: 1.2rem;
+}
+h2{
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+    color: #e03131;
+}
+.form-ineer{
+    border: 2px solid black;
+    padding: 2.4rem;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.4rem;
+    gap: 0.8rem;
+}
+
+.grid-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3.4rem;
+    margin-bottom: 1.4rem;
+}
+
+
+.grid-row-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.input{
+    padding: 1rem;
+}
+
+
+.in-lable{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.coupon{
+    border: 2px solid black;
+    padding: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.totaltb{
+    border: 2px solid black;
+    padding: 2.4rem;
+}
+
+th{
+    height: 3rem;
+    width: 1%;
+   
+    border-bottom: 2px solid #999;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.product{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+td{
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #999;
+}
+
+
+
+.main-tb{
+    margin-bottom: 2.4rem;
+}
+
+.m-b{
+    margin-bottom: 3rem;
+}
+
+.mb-remove{
+    margin-bottom: 0;
+}
+
+button{
+    cursor: pointer;
+    color: #e03131;
+}
+
+.coupon-btn{
+    background-color: #e03131;
+    border: none;
+    color: aliceblue;
+    width: 10.8rem;
+    transition: all 0.8ms;
+}
+
+
+.coupon-btn:hover,.coupon-btn:active{
+    background-color: #e03131;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+
+.place-order{
+    background-color: #e03131;
+    border: none;
+    color: aliceblue;
+    transition: all 0.8ms;
+    
+}
+
+
+.place-order:hover,.place-order:active{
+    background-color: #e03131;
+}
+
+
+/* media */
+
+
+@media(max-width:50em)
+{
+
+    .order-container{
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container{
+       
+        grid-template-columns: repeat(2,1fr);
+    }
+  
+}
+
+
+
+
+

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.utsav{
+    max-width: 120rem;
+    margin: 13rem auto ;
+}
+
+.main{
+    display: grid;
+    grid-template-columns:30% 60%;
+    padding: 0 5rem;
+    column-gap: 2rem;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.inputf{
+    border: 2px solid black;
+    padding: 0.8rem;
+}
+
+.btnin{
+    padding: 0.8rem;
+    width:18rem;;
+    align-self:center;
+}
+
+.left{
+    box-shadow: 2px 2px 40px rgb(0 0 0 / 19%);
+    padding: 2rem;
+}
+
+.img{
+    width: 20%;
+    align-self:center;
+    
+}
+
+.right{
+    box-shadow: 2px 2px 40px rgb(0 0 0 / 19%);
+    padding: 2rem;
+}
+
+.f{
+    display: grid;
+    grid-template-columns:15% 85%;
+    margin-bottom: 1.6rem;
+    
+}
+
+label{
+    font-size: 1.4rem;
+    align-self: center;
+    text-transform: capitalize;
+}
+
+.in{
+    padding: 0.8rem;
+}
+
+.inn{
+    display: flex;
+    gap: 1rem;
+}
+.inner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.g3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.m1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+}
+
+
+.fle{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mar{
+    align-self: start;
+}
+
+.texta{
+    height: 10rem;
+    width: 62rem;
+}
+
+
+
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table td,.table th{
+  padding:12px 15px;
+  border:1px solid #ddd;
+  text-align: center;
+  font-size:16px;
+}
+
+.table th{
+	background-color: #e03131;
+	color:#ffffff;
+}
+
+
+
+.tableproduct{
+	margin-top: 3rem;
+}
+
+.tablehed{
+	margin-bottom: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	height: 6rem;
+}
+
+
+
+
+@media(max-width:75em){
+   .main{
+    grid-template-columns: 1fr;
+    padding: 0rem;
+    gap: 4rem;
+   }
+
+   .footer-container{
+    grid-template-columns: repeat(3,1fr);
+   }
+    
+
+   .mb{
+    padding-left: 19.8rem;
+   }
+}
